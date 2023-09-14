@@ -1,0 +1,8 @@
+/Users/bytedance/Desktop/c_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/lib/CMakeFiles/sum.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/lib/CMakeFiles/edit_cache.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/lib/CMakeFiles/rebuild_cache.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/tests/CMakeFiles/test.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
+/Users/bytedance/Desktop/c_project/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
