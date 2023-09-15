@@ -1162,6 +1162,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "MYLIB_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "MYLIB_INCLUDE_DIR-NOTFOUND"
+		},
+		{
 			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[

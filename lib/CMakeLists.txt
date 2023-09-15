@@ -2,4 +2,4 @@
 add_library(sum STATIC sum/sum.c)
 
 # 将 sum 库与 lib 目录进行链接
-target_link_directories(sum PUBLIC ${CMAKE_CURRENT_LIST_DIR})
+target_link_directories(sum PRIVATE ${CMAKE_CURRENT_LIST_DIR})

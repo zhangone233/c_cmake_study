@@ -140,6 +140,7 @@ build cmake_object_order_depends_target_test: phony || cmake_object_order_depend
 build tests/CMakeFiles/test.dir/test.c.o: C_COMPILER__test_Release /Users/bytedance/Desktop/c_project/tests/test.c || cmake_object_order_depends_target_test
   DEP_FILE = tests/CMakeFiles/test.dir/test.c.o.d
   FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.1 -fcolor-diagnostics -std=gnu99
+  INCLUDES = -I/Users/bytedance/Desktop/c_project/tests/../lib/sum
   OBJECT_DIR = tests/CMakeFiles/test.dir
   OBJECT_FILE_DIR = tests/CMakeFiles/test.dir
 
@@ -153,8 +154,7 @@ build tests/CMakeFiles/test.dir/test.c.o: C_COMPILER__test_Release /Users/byteda
 
 build dist/test: C_EXECUTABLE_LINKER__test_Release tests/CMakeFiles/test.dir/test.c.o | dist/libsum.a || dist/libsum.a
   FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.1
-  LINK_LIBRARIES = -Wl,-rpath,/Users/bytedance/Desktop/c_project/lib/sum -Wl,-rpath,/Users/bytedance/Desktop/c_project/lib  dist/libsum.a
-  LINK_PATH = -L/Users/bytedance/Desktop/c_project/lib/sum   -L/Users/bytedance/Desktop/c_project/lib
+  LINK_LIBRARIES = dist/libsum.a
   OBJECT_DIR = tests/CMakeFiles/test.dir
   POST_BUILD = :
   PRE_LINK = :

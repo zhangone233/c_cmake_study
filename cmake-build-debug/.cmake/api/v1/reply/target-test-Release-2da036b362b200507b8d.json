@@ -11,8 +11,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_directories",
-			"target_link_libraries"
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -32,13 +32,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 5,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 3,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -53,6 +53,13 @@
 				},
 				{
 					"fragment" : "-std=gnu99"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/bytedance/Desktop/c_project/tests/../lib/sum"
 				}
 			],
 			"language" : "C",
@@ -73,7 +80,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
+			"backtrace" : 2,
 			"id" : "sum::@306ed2d68c6501e8728f"
 		}
 	],
@@ -92,20 +99,6 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-L/Users/bytedance/Desktop/c_project/lib/sum",
-				"role" : "libraryPath"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-L/Users/bytedance/Desktop/c_project/lib",
-				"role" : "libraryPath"
-			},
-			{
-				"fragment" : "-Wl,-rpath,/Users/bytedance/Desktop/c_project/lib/sum -Wl,-rpath,/Users/bytedance/Desktop/c_project/lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
 				"fragment" : "dist/libsum.a",
 				"role" : "libraries"
 			}
